@@ -15,10 +15,10 @@ Share browsers list between different front-end tools, like Autoprefixer, Stylel
 npm install --save-dev browserslist-config-nebenan
 ```
 
-### package.json
+### `.browserslistrc`
 
-```json
-{
-  "browserslist": ["extends browserslist-config-nebenan"]
-}
+```
+# Browsers that we support. To see current list: `npx browserslist`
+
+extends browserslist-config-nebenan
 ```
