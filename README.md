@@ -19,6 +19,6 @@ npm install --save-dev browserslist-config-nebenan
 
 ```json
 {
-  "browserslist": ["extends @goodhood/browserslist-config-nebenan"]
+  "browserslist": ["extends browserslist-config-nebenan"]
 }
 ```
