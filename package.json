@@ -6,14 +6,17 @@
   "scripts": {
     "supported-browsers": "node scripts/supported.js",
     "validate": "node scripts/validate.js",
-    "prepublishOnly": "npm run validate"
+    "lint": "eslint .",
+    "prepublishOnly": "npm run lint && npm run validate"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goodhood-eu/browserslist-config-nebenan.git"
   },
   "devDependencies": {
-    "browserslist": "^4.14.6"
+    "browserslist": "^4.14.6",
+    "eslint": "^7.12.1",
+    "eslint-config-nebenan-base": "^1.6.0"
   },
   "keywords": [
     "browserslist",
