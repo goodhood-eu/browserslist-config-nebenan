@@ -7,7 +7,8 @@
     "supported-browsers": "node scripts/supported.js",
     "validate": "node scripts/validate.js",
     "lint": "eslint .",
-    "prepublishOnly": "npm run lint && npm run validate"
+    "check": "npm run lint && npm run validate",
+    "prepublishOnly": "npm check"
   },
   "repository": {
     "type": "git",
