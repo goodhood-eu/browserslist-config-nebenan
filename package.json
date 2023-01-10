@@ -1,6 +1,6 @@
 {
   "name": "browserslist-config-nebenan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nebenan Browserslist Shared Config",
   "main": "index.js",
   "scripts": {
