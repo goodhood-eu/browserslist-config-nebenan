@@ -8,7 +8,7 @@
     "validate": "node scripts/validate.js",
     "lint": "eslint .",
     "check": "npm run lint && npm run validate",
-    "prepublishOnly": "npm check"
+    "prepublishOnly": "npm run check"
   },
   "repository": {
     "type": "git",
