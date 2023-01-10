@@ -15,9 +15,9 @@
     "url": "git+https://github.com/goodhood-eu/browserslist-config-nebenan.git"
   },
   "devDependencies": {
-    "browserslist": "^4.14.6",
-    "eslint": "^7.12.1",
-    "eslint-config-nebenan-base": "^1.6.0"
+    "browserslist": "^4.21.4",
+    "eslint": "^8.31.0",
+    "eslint-config-nebenan-base": "^2.0.2"
   },
   "keywords": [
     "browserslist",
