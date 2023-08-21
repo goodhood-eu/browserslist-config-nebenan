@@ -1,24 +1,13 @@
 {
   "name": "browserslist-config-nebenan",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nebenan Browserslist Shared Config",
+  "author": "Good Hood GmbH <tech@nebenan.de>",
+  "license": "MIT",
+  "homepage": "https://github.com/goodhood-eu/browserslist-config-nebenan#readme",
+  "repository": "github:goodhood-eu/browserslist-config-nebenan",
+  "bugs": "https://github.com/goodhood-eu/browserslist-config-nebenan/issues",
   "main": "index.js",
-  "scripts": {
-    "supported-browsers": "node scripts/supported.js",
-    "validate": "node scripts/validate.js",
-    "lint": "eslint .",
-    "check": "npm run lint && npm run validate",
-    "prepublishOnly": "npm run check"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/goodhood-eu/browserslist-config-nebenan.git"
-  },
-  "devDependencies": {
-    "browserslist": "^4.21.4",
-    "eslint": "^8.31.0",
-    "eslint-config-nebenan-base": "^2.0.2"
-  },
   "keywords": [
     "browserslist",
     "browserslist-config",
@@ -28,10 +17,16 @@
     "index.js",
     "LICENSE"
   ],
-  "author": "goodhood.eu <max@nebenan.de>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/goodhood-eu/browserslist-config-nebenan/issues"
+  "scripts": {
+    "supported-browsers": "node scripts/supported.js",
+    "validate": "node scripts/validate.js",
+    "lint": "eslint .",
+    "check": "npm run lint && npm run validate",
+    "prepublishOnly": "npm run check"
   },
-  "homepage": "https://github.com/goodhood-eu/browserslist-config-nebenan#readme"
+  "devDependencies": {
+    "browserslist": "^4.21.10",
+    "eslint": "^8.47.0",
+    "eslint-config-nebenan-base": "^2.0.2"
+  }
 }
